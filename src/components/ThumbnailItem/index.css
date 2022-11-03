@@ -1,0 +1,63 @@
+/* Write your code here. */
+.thumbnail-list-type {
+  list-style: none;
+}
+.thumbnail-list-container {
+  margin-right: 10px;
+  margin-top: 15px;
+  display: flex;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.mini-img {
+  opacity: 1;
+}
+.active-btn {
+  opacity: 0.6;
+}
+@media screen and (min-width: 300px) {
+  .mini-img {
+    width: auto;
+    height: 30px;
+  }
+  .active-btn {
+    opacity: 0.6;
+    width: auto;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .mini-img {
+    width: auto;
+    height: 50px;
+  }
+  .active-btn {
+    opacity: 0.6;
+    width: auto;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mini-img {
+    width: auto;
+    height: 50px;
+  }
+  .active-btn {
+    opacity: 0.6;
+    width: auto;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .mini-img {
+    width: auto;
+    height: 60px;
+  }
+  .active-btn {
+    opacity: 0.6;
+    width: auto;
+    height: 60px;
+  }
+}
